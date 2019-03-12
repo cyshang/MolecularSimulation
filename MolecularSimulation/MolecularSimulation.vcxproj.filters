@@ -15,16 +15,52 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PeriodBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgMolecule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Molecule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VelocityVerlet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MolecularSimulation.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="Atom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Molecule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PeriodBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgMolecule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VelocityVerlet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
